@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./player.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id='header'>
+            <div class='more'>
+                <ul>
+                    <li><i id='icon' class="fas fa-caret-down"></i></i>
+                        <ul class='moreManu none'>
+                            <li>Love Song</li>
+                            <li>Playlist</li>
+                            <li>Upload</li>
+                            <li>follow</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <h1 id='currentNameSong'></h1>
+            <div class="CD">
+                <img src="" alt="">
+            </div>
+            <div class="songTime">
+                <input class='time--tool' type='range' min='0' max='100' value='0' step='1'>
+            </div>
+            <div class=" tools--box ">
+                <div class="tools tools--random ">
+                    <i class="fas fa-random "></i>
+                </div>
+                <div class="tools tools--prev ">
+                    <i class="fas fa-step-backward "></i>
+                </div>
+                <div class="tools tools--play play_pause_btn ">
+                    <i class="fas fa-play "></i>
+                </div>
+                <div class="tools tools--pause pause play_pause_btn ">
+                    <i class="fas fa-pause "></i>
+                </div>
+                <div class="tools tools--next ">
+                    <i class="fas fa-step-forward "></i>
+                </div>
+                <div class="tools tools--loop ">
+                    <i class="fas fa-undo "></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="songList">
+    </div>
+    <audio id='audio' src=''></audio>
+</body>
+<script src=' ./player.js '></script>
+
+</html>
